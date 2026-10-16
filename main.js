@@ -3,17 +3,6 @@ const myHeading = document.querySelector("h1");
 // Update the text content of the <h1>
 myHeading.textContent = "Hello world!";
 
-const myImage = document.querySelector("img");
-
-myImage.addEventListener("click", () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/webi.png") {
-    myImage.setAttribute("src", "images/unnamed.png");
-  } else {
-    myImage.setAttribute("src", "images/webi.png");
-  }
-});
-
 let myButton = document.querySelector("button");
 
 function setUserName() {
